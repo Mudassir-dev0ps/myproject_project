@@ -1,4 +1,4 @@
-- name: configure webserver by jenkins
+- name: configure webserver
   hosts: all
   tasks:
   - name: install package
