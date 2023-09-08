@@ -7,7 +7,7 @@
      state: present 
   - name: copy website
     copy:
-     content: "Hello World from Ansible integration"
+     content: "Hello World from Ansible integration by Me"
      dest: /var/www/html/index.html
   - name: restart service
     service:
